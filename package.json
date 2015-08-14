@@ -1,0 +1,29 @@
+{
+  "name": "accept-language.org",
+  "version": "0.0.0",
+  "description": "Accept-language-as-a-service for old browsers",
+  "main": "server.js",
+  "dependencies": {
+    "accept-language-parser": "^1.0.2",
+    "handlebars": "^3.0.3",
+    "hapi": "^9.0.1",
+    "hoek": "^2.14.0",
+    "hapi-etags": "^0.1.0",
+    "vision": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuck/accept-language.org.git"
+  },
+  "author": "Jon Buckley <jon@jbuckley.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jbuck/accept-language.org/issues"
+  },
+  "homepage": "https://github.com/jbuck/accept-language.org#readme"
+}

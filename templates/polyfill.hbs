@@ -1,0 +1,11 @@
+if (!navigator) {
+  navigator = {};
+}
+
+if (!navigator.language) {
+  navigator.language = "{{ language }}";
+}
+
+if (!navigator.languages) {
+  navigator.language = {{{ languages }}};
+}
